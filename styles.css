@@ -76,7 +76,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(135deg, #3498db, #2c3e50);
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
     color: white;
     padding: 0 1rem;
 }
@@ -95,7 +95,7 @@ body {
     display: inline-block;
     padding: 1rem 2rem;
     background-color: #fff;
-    color: #2c3e50;
+    color: #962fbf;
     text-decoration: none;
     border-radius: 5px;
     transition: transform 0.3s ease;
@@ -114,7 +114,7 @@ body {
 .about h2 {
     text-align: center;
     margin-bottom: 3rem;
-    color: #2c3e50;
+    color: #962fbf;
 }
 
 .about-content {
@@ -134,7 +134,7 @@ body {
 }
 
 .skill-tags span {
-    background-color: #3498db;
+    background-color: #962fbf;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -149,7 +149,7 @@ body {
 .projects h2 {
     text-align: center;
     margin-bottom: 3rem;
-    color: #2c3e50;
+    color: #962fbf;
 }
 
 .project-grid {
@@ -180,7 +180,7 @@ body {
 
 .project-card h3 {
     padding: 1rem;
-    color: #2c3e50;
+    color: #962fbf;
 }
 
 .project-card p {
@@ -209,7 +209,7 @@ body {
 .contact h2 {
     text-align: center;
     margin-bottom: 3rem;
-    color: #2c3e50;
+    color: #962fbf;
 }
 
 .contact-content {
@@ -238,7 +238,7 @@ body {
 .submit-btn {
     width: 100%;
     padding: 1rem;
-    background-color: #3498db;
+    background-color: #962fbf;
     color: white;
     border: none;
     border-radius: 5px;
@@ -248,7 +248,7 @@ body {
 }
 
 .submit-btn:hover {
-    background-color: #2980b9;
+    background-color: #962fbf;
 }
 
 .social-links {
@@ -259,20 +259,20 @@ body {
 }
 
 .social-link {
-    color: #2c3e50;
+    color: #962fbf;
     font-size: 1.5rem;
     transition: color 0.3s ease;
 }
 
 .social-link:hover {
-    color: #3498db;
+    color: #962fbf;
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: #2c3e50;
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
     color: white;
 }
 
