@@ -9,8 +9,8 @@ Welcome to my personal website! This project serves as my digital portfolio and 
 - Responsive design for desktop and mobile
 - Simple, clean layout
 - Smooth scrolling and animations
-- Contact form (optional)
 - Project showcase section
+- Contact Form & Social Media
 
 ## Built With
 
