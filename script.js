@@ -39,7 +39,7 @@ contactForm.addEventListener('submit', function(e) {
     console.log('Form submitted:', { name, email, message });
     
     // Show success message
-    alert('Thank you for your message! I will get back to you soon.');
+    alert('Thank you for your message!');
     
     // Reset form
     contactForm.reset();
