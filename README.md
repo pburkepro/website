@@ -1,6 +1,6 @@
-# Personal Website
+# Personal Website (pburkepro.com)
 
-\# pburkepro.com
+[![License: MIT](https://img.shields.io/badge/license-MIT-C06524)](https://github.com/hynek/hatch-fancy-pypi-readme/blob/main/LICENSE.txt)
 
 Welcome to my personal website! This project serves as my digital portfolio and a place to share more about who I am, what I do, and how to get in touch.
 
