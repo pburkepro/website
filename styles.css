@@ -79,14 +79,6 @@ body {
     background: linear-gradient(135deg, #4D148C, #FF6600);
     color: linear-gradient(135deg, #4D148C, #FF6600);
     padding: 0 1rem;
-
-    width: 100%;
-    background-image: url('imgs/pittsburgh.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    transition: background-size 0.5s ease-in-out;
 }
 
 /* Optional zoom effects on different screen sizes */
