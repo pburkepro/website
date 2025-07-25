@@ -32,7 +32,7 @@ body {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #2c3e50;
+    color: #4D148C;
 }
 
 .nav-links {
@@ -46,13 +46,13 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #2c3e50;
+    color: #4D148C;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: #3498db;
+    color: #4D148C;
 }
 
 .hamburger {
@@ -108,7 +108,7 @@ body {
     display: inline-block;
     padding: 1rem 2rem;
     background-color: #fff;
-    color: #962fbf;
+    color: #4D148C;
     text-decoration: none;
     border-radius: 5px;
     transition: transform 0.3s ease;
@@ -127,7 +127,7 @@ body {
 .about h2 {
     text-align: center;
     margin-bottom: 3rem;
-    color: #962fbf;
+    color: #4D148C;
 }
 
 .about-content {
@@ -147,7 +147,7 @@ body {
 }
 
 .skill-tags span {
-    background-color: #962fbf;
+    background-color: #4D148C;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -162,7 +162,7 @@ body {
 .projects h2 {
     text-align: center;
     margin-bottom: 3rem;
-    color: #962fbf;
+    color: #4D148C;
 }
 
 .project-grid {
@@ -193,7 +193,7 @@ body {
 
 .project-card h3 {
     padding: 1rem;
-    color: #962fbf;
+    color: #4D148C;
 }
 
 .project-card p {
@@ -222,7 +222,7 @@ body {
 .contact h2 {
     text-align: center;
     margin-bottom: 3rem;
-    color: #962fbf;
+    color: #4D148C;
 }
 
 .contact-content {
@@ -251,7 +251,7 @@ body {
 .submit-btn {
     width: 100%;
     padding: 1rem;
-    background-color: #962fbf;
+    background-color: #4D148C;
     color: white;
     border: none;
     border-radius: 5px;
@@ -261,7 +261,7 @@ body {
 }
 
 .submit-btn:hover {
-    background-color: #962fbf;
+    background-color: #4D148C;
 }
 
 .social-links {
@@ -272,14 +272,16 @@ body {
 }
 
 .social-link {
-    color: #962fbf;
-    font-size: 1.5rem;
+    color: #4D148C;
+    font-size: 2.5rem;
     transition: color 0.3s ease;
 }
 
+/*
 .social-link:hover {
-    color: #962fbf;
+    color: #4D148C;
 }
+*/
 
 /* Footer */
 footer {
