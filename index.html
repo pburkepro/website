@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
     <!-- <link rel="icon" type="image/png" href="favicon.png"> -->
+
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -96,7 +97,7 @@
     <section id="contact" class="contact">
         <h2>Get in Touch</h2>
         <div class="contact-content">
-            <form id="contact-form">
+            <form id="contact-form" onsubmit="return sendEmail();">
                 <div class="form-group">
                     <input type="text" id="name" name="name" required placeholder="Your Name">
                 </div>
@@ -126,5 +127,17 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+    function sendEmail() {
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var message = document.getElementById('message').value;
+        var subject = encodeURIComponent('Contact Form Submission from ' + name);
+        var body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+        var mailtoLink = 'mailto:pburkepro@gmail.com?subject=' + subject + '&body=' + body;
+        window.location.href = mailtoLink;
+        return false;
+    }
+    </script>
 </body>
 </html> 
