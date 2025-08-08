@@ -30,7 +30,7 @@ contactForm.addEventListener('submit', function(e) {
     
     // Basic form validation
     if (!name || !email || !message) {
-        alert('Please fill in all fields');
+        alert('Please fill in every field');
         return;
     }
     
