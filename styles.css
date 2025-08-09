@@ -11,7 +11,7 @@ html {
 body {
     font-family: 'Caprasimo', serif, sans-serif;
     line-height: 1.6;
-    color: #f9f9f9;
+    color: #000;
 }
 
 /* Navigation Styles */
@@ -31,7 +31,7 @@ body {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #687682;
+    color: #000;
 }
 
 .nav-links {
@@ -45,13 +45,13 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #687682;
+    color: #000;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: #687682;
+    color: #000;
 }
 
 .hamburger {
@@ -75,7 +75,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(135deg, #005030, #F47321);
+    background: linear-gradient(45deg, #D3D3D3, #808080, #555555);
     padding: 0 1rem;
 }
 
@@ -106,7 +106,7 @@ body {
     display: inline-block;
     padding: 1rem 2rem;
     background-color: #fff;
-    color: #687682;
+    color: #000;
     text-decoration: none;
     border-radius: 5px;
     transition: transform 0.3s ease;
@@ -125,7 +125,7 @@ body {
 .about h2 {
     text-align: center;
     margin-bottom: 3rem;
-    color: #687682;
+    color: #000;
 }
 
 .about-content {
@@ -145,7 +145,7 @@ body {
 }
 
 .skill-tags span {
-    background-color: #687682;
+    background-color: #000;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -161,7 +161,7 @@ body {
 .contact h2 {
     text-align: center;
     margin-bottom: 3rem;
-    color: #687682;
+    color: #000;
 }
 
 .contact-content {
@@ -190,7 +190,7 @@ body {
 .submit-btn {
     width: 100%;
     padding: 1rem;
-    background-color: #687682;
+    background-color: #000;
     color: white;
     border: none;
     border-radius: 5px;
@@ -200,7 +200,7 @@ body {
 }
 
 .submit-btn:hover {
-    background-color: #687682;
+    background-color: #000;
 }
 
 .social-links {
@@ -211,7 +211,7 @@ body {
 }
 
 .social-link {
-    color: #687682;
+    color: #000;
     font-size: 2rem;
     transition: color 0.3s ease;
 }
@@ -220,7 +220,7 @@ body {
 footer {
     text-align: center;
     padding: 2rem;
-    background: linear-gradient(135deg, #005030, #F47321)
+    background: linear-gradient(45deg, #D3D3D3, #808080, #555555);
 }
 
 /* Responsive Design */
