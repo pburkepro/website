@@ -34,8 +34,6 @@ contactForm.addEventListener('submit', function(e) {
         return;
     }
     
-    // Here you would typically send the form data to a server
-    // For now, we'll just log it and show a success message
     console.log('Form submitted:', { name, email, message });
     
     // Show success message
@@ -44,6 +42,7 @@ contactForm.addEventListener('submit', function(e) {
     // Reset form
     contactForm.reset();
 });
+
 
 // Add scroll-based animations
 window.addEventListener('scroll', () => {
