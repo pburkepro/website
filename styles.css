@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: 'Caprasimo', serif, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
     color: #000;
 }
@@ -75,8 +75,9 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(45deg, #D3D3D3, #808080, #555555);
-    padding: 0 1rem;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b, #fd5e53, #fcae1e, #f9d423);
+    background-size: 200% 200%;
+    animation: sunset-gradient 8s linear infinite;
 }
 
 /* Optional zoom effects on different screen sizes */
@@ -220,9 +221,19 @@ body {
 footer {
     text-align: center;
     padding: 2rem;
-    background: linear-gradient(45deg, #D3D3D3, #808080, #555555);
+    background: linear-gradient(45deg, #ff7e5f, #feb47b, #fd5e53, #fcae1e, #f9d423);
+    background-size: 200% 200%;
+    animation: sunset-gradient 8s linear infinite;
 }
 
+@keyframes sunset-gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-links {
