@@ -1,12 +1,9 @@
-// Mobile Navigation Toggle
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 
 hamburger.addEventListener('click', () => {
-    navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+    navLinks.classList.toggle('show');
 });
-
-// Smooth Scrolling for Navigation Links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -16,35 +13,26 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-
-// Form Submission Handler
+function sendEmail(name, email, message) {
+    var subject = encodeURIComponent('Contact Form Submission from ' + name);
+    var body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+    var mailtoLink = 'mailto:pburkepro@gmail.com?subject=' + subject + '&body=' + body;
+    window.location.href = mailtoLink;
+}
 const contactForm = document.getElementById('contact-form');
-
-contactForm.addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    // Get form values
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
-    
-    // Basic form validation
-    if (!name || !email || !message) {
-        alert('Please fill in every field');
-        return;
-    }
-    
-    console.log('Form submitted:', { name, email, message });
-    
-    // Show success message
-    alert('Thank you for your message!');
-    
-    // Reset form
-    contactForm.reset();
-});
-
-
-// Add scroll-based animations
+if (contactForm) {
+    contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+        if (!name || !email || !message) {
+            alert('Please fill in every field');
+            return;
+        }
+        sendEmail(name, email, message);
+    });
+}
 window.addEventListener('scroll', () => {
     const sections = document.querySelectorAll('section');
     
@@ -58,8 +46,6 @@ window.addEventListener('scroll', () => {
         }
     });
 });
-
-// Initialize sections with opacity 0
 document.addEventListener('DOMContentLoaded', () => {
     const sections = document.querySelectorAll('section');
     sections.forEach(section => {

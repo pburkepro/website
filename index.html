@@ -10,6 +10,7 @@
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
     <link rel="icon" type="image/svg+xml" href="sunset-favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="sunset-favicon.png">
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -18,7 +19,6 @@
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <!--<li><a href="#projects">Projects</a></li> -->
             <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="hamburger">
@@ -70,7 +70,7 @@
     <section id="contact" class="contact">
         <h2>Get in Touch</h2>
         <div class="contact-content">
-            <form id="contact-form" onsubmit="return sendEmail();">
+            <form id="contact-form">
                 <div class="form-group">
                     <input type="text" id="name" name="name" required placeholder="Your Name">
                 </div>
@@ -100,17 +100,5 @@
     </footer>
 
     <script src="script.js"></script>
-    <script>
-    function sendEmail() {
-        var name = document.getElementById('name').value;
-        var email = document.getElementById('email').value;
-        var message = document.getElementById('message').value;
-        var subject = encodeURIComponent('Contact Form Submission from ' + name);
-        var body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
-        var mailtoLink = 'mailto:pburkepro@gmail.com?subject=' + subject + '&body=' + body;
-        window.location.href = mailtoLink;
-        return false;
-    }
-    </script>
 </body>
 </html> 
