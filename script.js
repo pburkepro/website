@@ -16,7 +16,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 function sendEmail(name, email, message) {
     var subject = encodeURIComponent('Contact Form Submission from ' + name);
     var body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
-    var mailtoLink = 'mailto:pburkepro@gmail.com?subject=' + subject + '&body=' + body;
+    var mailtoLink = 'mailto:pburkepro@outlook.com?subject=' + subject + '&body=' + body;
     window.location.href = mailtoLink;
 }
 const contactForm = document.getElementById('contact-form');
